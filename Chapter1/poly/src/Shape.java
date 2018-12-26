@@ -8,6 +8,6 @@
 public class Shape {
 
     public void show(){
-        System.out.println("show----->Shapge");
+        System.out.println("show----->Shape");
     }
 }

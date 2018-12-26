@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * <pre>
  * desc : TODO
@@ -13,8 +16,15 @@ public class Main {
 
         Circle circle = new Circle();
         Line line = new Line();
-        Main.dosomething(circle);
-        Main.dosomething(line);
+//        Main.dosomething(circle);
+//        Main.dosomething(line);
+        // 容器泛型
+        List<Shape> shapes = new ArrayList<>();
+        shapes.add(new Shape());
+        shapes.add(circle);
+        for (Shape shape:shapes){
+            Main.dosomething(shape);
+        }
     }
 
     static void dosomething(Shape shape){
