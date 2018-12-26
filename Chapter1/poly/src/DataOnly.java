@@ -14,4 +14,13 @@ public class DataOnly {
     short aShort;
     long aLong;
     float aFloat;
+
+    Integer ii;
+    Double jj;
+    Boolean kk;
+    Character character;
+    Byte by;
+    Short sh;
+    Long ll;
+    Float f;
 }

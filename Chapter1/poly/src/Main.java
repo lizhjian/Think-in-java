@@ -31,13 +31,21 @@ public class Main {
         //3.类变量初始化
         DataOnly dataOnly = new DataOnly();
         System.out.println(dataOnly.i);
+        System.out.println(dataOnly.ii);
         System.out.println(dataOnly.j);
+        System.out.println(dataOnly.jj);
         System.out.println(dataOnly.k);
+        System.out.println(dataOnly.kk);
         System.out.println(dataOnly.aByte);
+        System.out.println(dataOnly.by);
         System.out.println(dataOnly.aChar);
+        System.out.println(dataOnly.character);
         System.out.println(dataOnly.aFloat);
+        System.out.println(dataOnly.f);
         System.out.println(dataOnly.aLong);
+        System.out.println(dataOnly.ll);
         System.out.println(dataOnly.aShort);
+        System.out.println(dataOnly.sh);
 
 
 
