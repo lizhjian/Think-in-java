@@ -29,7 +29,7 @@ public class Main {
             Main.dosomething(shape);
         }*/
         //3.类变量初始化
-        DataOnly dataOnly = new DataOnly();
+        /*DataOnly dataOnly = new DataOnly();
         System.out.println(dataOnly.i);
         System.out.println(dataOnly.ii);
         System.out.println(dataOnly.j);
@@ -45,7 +45,10 @@ public class Main {
         System.out.println(dataOnly.aLong);
         System.out.println(dataOnly.ll);
         System.out.println(dataOnly.aShort);
-        System.out.println(dataOnly.sh);
+        System.out.println(dataOnly.sh);*/
+
+        int i;
+        System.out.println(i);
 
 
 
