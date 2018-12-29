@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -45,10 +46,14 @@ public class Main {
         System.out.println(dataOnly.aLong);
         System.out.println(dataOnly.ll);
         System.out.println(dataOnly.aShort);
-        System.out.println(dataOnly.sh);*/
+        System.out.println(dataOnly.sh);
 
         int i;
-        System.out.println(i);
+        System.out.println(i);*/
+        System.getProperties().list(System.out);
+        System.out.println(System.getProperty("user.name"));
+        System.out.println(System.getProperty("java.class.path"));
+        System.out.println(new Date());
 
 
 
