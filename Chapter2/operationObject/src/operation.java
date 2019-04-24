@@ -32,8 +32,18 @@ public class operation {
             int x =12;
             {
                 int q =98;
+               // int x = 89;  不合法
             }
         }
+        //7.对象作用域  引用s2在作用域终点消失,但是s2指向的String对象仍继续占据着内存空间。
+        {
+            String s2 = new String("a string");
+        }
+        //8.类
+        class AtypeName{}
+        AtypeName a1 = new AtypeName();
+        //9.
+
 
 
 
