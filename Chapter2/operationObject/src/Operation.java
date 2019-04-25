@@ -5,7 +5,16 @@
  * date ：2019-04-24 22:59
  * </pre>
  */
-public class operation {
+public class Operation {
+
+    private boolean a1;
+    private char a2;
+    private byte a3;
+    private short a4;
+    private int a5;
+    private long a6;
+    private float a7;
+    private double a8;
 
     public static void main(String[] args) {
 
@@ -26,7 +35,7 @@ public class operation {
         //5.数组
         char[] arr = {};
         System.out.println(arr.length);
-        System.out.println(arr[0]);
+       // System.out.println(arr[0]);
         //6.作用域
         {
             int x =12;
@@ -42,7 +51,17 @@ public class operation {
         //8.类
         class AtypeName{}
         AtypeName a1 = new AtypeName();
-        //9.
+        //9.类的成员变量初始化
+        Operation operation = new Operation();
+        System.out.println("boolean==>"+operation.a1);
+        System.out.println("char==>"+operation.a2);
+        System.out.println("byte==>"+operation.a3);
+        System.out.println("short==>"+operation.a4);
+        System.out.println("int==>"+operation.a5);
+        System.out.println("long==>"+operation.a6);
+        System.out.println("float==>"+operation.a7);
+        System.out.println("souble==>"+operation.a8);
+        //10.Java函数的参数列表中传递的是引用(地址)
 
 
 
