@@ -16,6 +16,12 @@ public class Operation {
     private float a7;
     private double a8;
 
+    private static int i = 50;
+
+    static void add(){
+       Operation.i++;
+    }
+
     public static void main(String[] args) {
 
         //1.只是一个有引用，不指向任何对象，所以没办法对s进行实际操作
@@ -63,6 +69,20 @@ public class Operation {
         System.out.println("souble==>"+operation.a8);
         //10.Java函数的参数列表中传递的是引用(地址)
 
+        //11.静态变量  可以通过类进行访问  也可以通过类对象进行访问
+        System.out.println("==>"+Operation.i);
+        Operation operation1 = new Operation();
+        System.out.println("==>"+operation1.i);
+
+        //通过类调用方法
+        Operation.add();
+        System.out.println("==>"+Operation.i);
+        System.out.println("==>"+operation1.i);
+
+        //也可以通过类对象调用方法
+        operation.add();
+        System.out.println("==>"+Operation.i);
+        System.out.println("==>"+operation1.i);
 
 
 
