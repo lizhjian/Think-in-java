@@ -1,3 +1,5 @@
+import java.util.Date;
+
 /**
  * <pre>
  * desc ：万物皆对象
@@ -83,6 +85,10 @@ public class Operation {
         operation.add();
         System.out.println("==>"+Operation.i);
         System.out.println("==>"+operation1.i);
+
+        //12.我的第一个java程序
+        System.out.println("Hello,it's");
+        System.out.println(new Date());
 
 
 
