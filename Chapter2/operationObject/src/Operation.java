@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -20,7 +21,7 @@ public class Operation {
 
     private static int i = 50;
 
-    static void add(){
+    private static void add(){
        Operation.i++;
     }
 
@@ -56,6 +57,7 @@ public class Operation {
         {
             String s2 = new String("a string");
         }
+        int xx;
         //8.类
         class AtypeName{}
         AtypeName a1 = new AtypeName();
@@ -89,6 +91,9 @@ public class Operation {
         //12.我的第一个java程序
         System.out.println("Hello,it's");
         System.out.println(new Date());
+
+
+        Arrays.asList();
 
 
 
