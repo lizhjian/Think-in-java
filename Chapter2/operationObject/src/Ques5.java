@@ -8,7 +8,7 @@
 public class Ques5 {
 
     public static void main(String[] args) {
-        DataOnly dataOnly  = new DataOnly();
+        DataOnly1 dataOnly  = new DataOnly1();
         dataOnly.setB(true);
         dataOnly.setD(1);
         dataOnly.setI(1);
@@ -17,7 +17,7 @@ public class Ques5 {
 }
 
 
-class DataOnly{
+class DataOnly1{
     int i;
     double d;
     boolean b;
@@ -45,6 +45,8 @@ class DataOnly{
     public void setB(boolean b) {
         this.b = b;
     }
+
+
 
 
     void show(){
