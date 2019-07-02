@@ -16,7 +16,9 @@ public class Demo51 {
         Test53 test53 = new Test53("sssss");
         System.out.println(test53.str);
 
-
+        char bb= 'a';
+        test53.show(bb);
+        test53.show(bb);
 
 
     }
@@ -37,5 +39,12 @@ class Test53{
 
     public Test53(String str) {
         this.str = str;
+    }
+
+    void show(int a){
+        System.out.println("int");
+    }
+    void show(float a){
+        System.out.println("float");
     }
 }
