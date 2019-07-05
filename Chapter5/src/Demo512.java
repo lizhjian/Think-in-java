@@ -7,10 +7,13 @@
  */
 public class Demo512 {
     public static void main(String[] args) {
-        new Tank(true);
+        Tank tank1 = new Tank("aaa",true);
+
         // System.out.println(tank.flag);
-        //  new Tank();
+          new Tank("bbb",false);
+        tank1 = null;
         System.gc();
+
 
 
 
@@ -21,14 +24,19 @@ public class Demo512 {
 class Tank{
     boolean flag;
 
-    public Tank(boolean flag) {
+    String name;
+
+    public Tank(String name,boolean flag) {
+        this.name = name;
         this.flag = flag;
     }
 
     protected void finalize(){
+        System.out.println("尝试清理--->"+this.name);
         if(flag == true){
             System.out.println("非法清理");
         }
+        System.out.println("清理完成.....");
     }
 }
 
