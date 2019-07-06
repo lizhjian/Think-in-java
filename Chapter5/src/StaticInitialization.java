@@ -1,9 +1,9 @@
 /**
  * <pre>
- * desc £ºÀàÖĞ£¬¾²Ì¬³ÉÔ±±äÁ¿×îÏÈ³õÊ¼»¯
- *        Ö»ÓÃÓÃµ½ÁË¾²Ì¬Àà£¬¾²Ì¬ÀàÄÚ²¿µÄ³ÉÔ±²Å»á±»³õÊ¼»¯
- * author £ºlizj
- * date £º2019-07-07 07:11
+ * desc ï¼šç±»ä¸­ï¼Œé™æ€æˆå‘˜å˜é‡æœ€å…ˆåˆå§‹åŒ–
+ *        åªç”¨ç”¨åˆ°äº†é™æ€ç±»ï¼Œé™æ€ç±»å†…éƒ¨çš„æˆå‘˜æ‰ä¼šè¢«åˆå§‹åŒ–
+ * author ï¼šlizj
+ * date ï¼š2019-07-07 07:11
  * </pre>
  */
 
@@ -21,16 +21,22 @@ class Table{
     public Table() {
     }
     static Bowl bow2 = new Bowl(3);
+
+    static void show(){
+        System.out.println("ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚");
+    }
 }
 
 public class StaticInitialization {
     public static void main(String[] args) {
-       // System.out.println(Table.bow2);
+        // System.out.println(Table.bow2);
         // Table table = new Table();
-        System.out.println(Table.bow2);  //ÒòÎªÒıÓÃÁËTable,ËùÒÔtableÄÚ²¿µÄ³ÉÔ±±äÁ¿±»³õÊ¼»¯
+        //System.out.println(Table.bow2);  //å› ä¸ºå¼•ç”¨äº†Table,æ‰€ä»¥tableå†…éƒ¨çš„æˆå‘˜å˜é‡è¢«åˆå§‹åŒ–
+       // Table.show();
+        Table table;
     }
 
-     //System.out.println(Table.bow2);   //ÀàÖĞÖ»ÄÜ¶¨Òå³ÉÔ±±äÁ¿
+     //System.out.println(Table.bow2);   //ç±»ä¸­åªèƒ½å®šä¹‰æˆå‘˜å˜é‡
    //  static Table table = new Table();
 
 }
