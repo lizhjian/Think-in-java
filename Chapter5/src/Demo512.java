@@ -13,8 +13,10 @@ public class Demo512 {
           new Tank("bbb",false);
         tank1 = null;
         System.gc();
+        Tank tank;
 
-
+        //int i = f();
+        //tank.name;
 
 
     }
@@ -38,5 +40,19 @@ class Tank{
         }
         System.out.println("清理完成.....");
     }
+
+//    int i = f();
+//    int f(){
+//        return 0;
+//    }
+
+//    int j = g(i);
+//    int i = f();
+//    int f(){
+//            return 11;
+//    }
+//    int g(int n){
+//        return 100;
+//    }
 }
 
