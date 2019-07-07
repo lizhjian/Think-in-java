@@ -1,4 +1,4 @@
-import com1.Demo602;
+import access.Demo602;
 
 /**
  * <pre>

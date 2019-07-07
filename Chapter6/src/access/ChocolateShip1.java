@@ -1,6 +1,6 @@
-package com1;
+package access;
 
-import com1.dessert.Cookie;
+import access.dessert.Cookie;
 
 /**
  * <pre>
@@ -20,5 +20,6 @@ public class ChocolateShip1 extends Cookie {
         this.bite();
         ChocolateShip ship = new ChocolateShip();
         ship.chomp();
+
     }
 }

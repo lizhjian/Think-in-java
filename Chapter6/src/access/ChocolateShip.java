@@ -1,6 +1,4 @@
-package com1;
-
-import com1.dessert.Cookie;
+package access;
 
 /**
  * <pre>
