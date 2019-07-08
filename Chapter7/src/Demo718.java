@@ -5,7 +5,7 @@
  * date £º2019-07-08 20:14
  * </pre>
  */
-public class Demo518 {
+public class Demo718 {
 
     private final Test518 test518 = new Test518();
 

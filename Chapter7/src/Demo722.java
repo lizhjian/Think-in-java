@@ -1,20 +1,37 @@
 /**
  * <pre>
- * desc £ºTODO
- * author £ºlizj
- * date £º2019-07-08 20:41
+ * desc ï¼šTODO
+ * author ï¼šlizj
+ * date ï¼š2019-07-08 20:41
  * </pre>
  */
 //public class Demo722 extends Test722{
 public class Demo722 {
     public static void main(String[] args) {
+        Test722 test722 = new Test722();
+
 
     }
 }
 
 
-final class Test722{
-    void show(){
-        System.out.println("show");
+ class Test722{
+
+    private Integer num  = show();
+    private static String num1  = print("é™æ€");
+
+
+
+    Integer show(){
+        System.out.println("åˆå§‹åŒ–");
+         return new Integer(1);
     }
-        }
+    static String print(String str){
+        System.out.println(str);
+        return str;
+    }
+
+
+
+    //public static
+}
