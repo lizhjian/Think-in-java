@@ -1,8 +1,8 @@
 /**
  * <pre>
- * desc £ºTODO
- * author £ºlizj
- * date £º2019-07-08 19:47
+ * desc ï¼šTODO
+ * author ï¼šlizj
+ * date ï¼š2019-07-08 19:47
  * </pre>
  */
 public class Frog extends Amphibian{
