@@ -7,8 +7,10 @@
  */
 //public class Demo722 extends Test722{
 public class Demo722 {
+    private static final Test722 out = new Test722();
     public static void main(String[] args) {
-        Test722 test722 = new Test722();
+        //Test722 test722 = new Test722();
+        System.out.println("main....");
 
 
     }
@@ -31,7 +33,8 @@ public class Demo722 {
         return str;
     }
 
-
-
-    //public static
+     public Test722() {
+         System.out.println("构造函数");
+     }
+//public static
 }
