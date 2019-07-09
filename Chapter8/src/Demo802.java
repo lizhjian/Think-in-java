@@ -27,3 +27,14 @@ class Circle802 extends Shape802{
         super.erase();
     }
 }
+class Triangle802 extends Shape802{
+    @Override
+    public void draw() {
+        super.draw();
+    }
+
+    @Override
+    public void erase() {
+        super.erase();
+    }
+}
