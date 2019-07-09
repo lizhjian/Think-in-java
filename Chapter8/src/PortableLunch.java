@@ -45,6 +45,12 @@ class Ban{
         System.out.println("子类成员变量...初始化");
     }
 }
+class Car{
+
+    public Car() {
+        System.out.println("子类成员Car变量...初始化");
+    }
+}
 
 public class PortableLunch extends Insect{
 
@@ -58,6 +64,8 @@ public class PortableLunch extends Insect{
     }
 
     private Ban ban = new Ban();
+
+    private Car car = null;
 
     static int say(){
         System.out.println("子类静态变量....初始化");
