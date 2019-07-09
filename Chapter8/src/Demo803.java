@@ -41,6 +41,11 @@ class Shape803{
 }
 
 class Circle803 extends Shape803{
+
+    int wheels(){
+        return 10;
+    }
+
     @Override
     public void draw() {
         super.draw();
