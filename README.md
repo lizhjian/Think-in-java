@@ -18,6 +18,7 @@
 * 子类只有实现或者覆盖了父类的方法,才叫多态,没有成功的实现或者覆盖多态不生效(PrivateOverride.java)https://blog.csdn.net/wn1017888485/article/details/46051981
 * 访问变量看声明，访问方法看实际对象类型,（new出来的类型)https://blog.csdn.net/qq_23476319/article/details/53892776
 * 当子类中存在和父类同名的属性时，父类属性会被隐藏起来，但在多态的情况下属性被调用时会激活父类的属性而隐藏子类的属性，而方法不会被隐藏，只能使用super在子类中调用父类的方法。
+* Java父类调用被子类重写的方法 https://www.cnblogs.com/pomodoro/p/9488086.html
 * 类的加载顺序
    * main()中不new子类
       * 父类静态变量....初始化
@@ -57,4 +58,7 @@ __总结:不管new不new子类父类和子类的静态代码块和静态变量�
    
 ## 第九章
 * 适配器模式 ???
-* AdapterRandowDoubles    
+* AdapterRandowDoubles
+* A917 内部接口
+
+    
