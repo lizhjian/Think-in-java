@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 /**
@@ -8,7 +7,20 @@ import java.util.Arrays;
  * date £º2019-07-14 15:06
  * </pre>
  */
-interface Selector{
+class Word{
+    private String word;
+
+    @Override
+    public String toString() {
+        return "word..."+word;
+    }
+
+    public Word(String word) {
+        this.word = word;
+    }
+}
+
+interface Selector02{
     boolean end();
 
     Object current();
@@ -17,13 +29,13 @@ interface Selector{
 
 }
 
-public class Sequence {
+public class Sequence02 {
 
     public Object[] items;
 
     private int next = 0;
 
-    public Sequence(int size) {
+    public Sequence02(int size) {
         items = new Object[size];
     }
 
@@ -52,10 +64,6 @@ public class Sequence {
                 i++;
             }
         }
-        public Sequence getSequence(){
-            return Sequence.this;
-        }
-
     }
 
     public Selector selector(){
@@ -64,8 +72,7 @@ public class Sequence {
 
 
     public static void main(String[] args) {
-        Sequence sequence = new Sequence(10);
-        System.out.println(sequence.new SequenceSelector().getSequence());
+        Sequence02 sequence = new Sequence02(3);
 
 //        for(int i = 0;i<10;i++){
 //            sequence.add(Integer.toString(i));
@@ -76,5 +83,19 @@ public class Sequence {
 //            System.out.println(selector.current() + " ");
 //            selector.next();
 //        }
+        Word w1 = new Word("abc");
+        Word w2 = new Word("bcd");
+        Word w3 = new Word("efg");
+
+        sequence.add(w1);
+        sequence.add(w2);
+        sequence.add(w3);
+
+        Selector selector = sequence.selector();
+
+        while (!selector.end()){
+            System.out.println(selector.current()+" ");
+            selector.next();
+        }
     }
 }
