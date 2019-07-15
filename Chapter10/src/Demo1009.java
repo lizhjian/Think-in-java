@@ -8,6 +8,7 @@
 public class Demo1009 {
 
     inter1009 ride(){
+        if(true){
         class Inner implements inter1009{
             @Override
             public void run() {
@@ -19,7 +20,9 @@ public class Demo1009 {
             }
         }
 
-        return new Inner();
+        return new Inner();}
+
+        return null;
     }
 
     public static void main(String[] args) {
