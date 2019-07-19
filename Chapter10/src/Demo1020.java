@@ -1,21 +1,25 @@
 /**
  * <pre>
- * desc £ºÇ¶Ì×Àà
- * author £ºlizj
- * date £º2019-07-16 08:07
+ * desc ï¼šåµŒå¥—ç±»
+ * author ï¼šlizj
+ * date ï¼š2019-07-16 08:07
  * </pre>
  */
 public class Demo1020 {
 
     public static void main(String[] args) {
         Out1020.Inner1020 inner1020 = new Out1020.Inner1020();
+        inner1020.run();
     }
 
 }
 interface Out1020{
     void run();
 
-    class Inner1020{
-
+    class Inner1020 implements Out1020{
+        @Override
+        public void run() {
+            System.out.println("å†…éƒ¨ç±»run......");
+        }
     }
 }
