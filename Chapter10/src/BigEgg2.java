@@ -17,5 +17,12 @@ class Egg2{
 }
 
 
-public class BigEgg2 {
+public class BigEgg2 extends Egg2{
+    public class Yolk extends Egg2.Yolk{
+
+        public Yolk() {
+            System.out.println("BigEgg2.....Yolk");
+        }
+
+    }
 }
