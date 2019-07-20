@@ -31,7 +31,5 @@ public class AsListInference {
         List<Snow> list1 = Arrays.asList(new Powder(),new Heavy(),new Slush());
         //显示指定告诉编译器想要转成什么样的
         List<Snow> list2 = Arrays.<Snow>asList(new Powder(),new Heavy());
-
-
     }
 }
