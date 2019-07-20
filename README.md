@@ -74,6 +74,9 @@ __总结:不管new不new子类父类和子类的静态代码块和静态变量�
 ## 第十一章
 * ArrayList集合源码
 * 对象的equals比较 todo
+* TreeSet将元素存储在红-黑树数据结构中
+* HashSet使用李离散函数
+* LinkedHashList使用了散列 看起来它使用了链表维护元素的插入顺序
 
   
   
