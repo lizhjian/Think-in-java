@@ -17,8 +17,8 @@ public class Demo1119 {
         s.add("ddd");
         System.out.println(s);
 
-        Set<String> set = new LinkedHashSet<>(s);
-        Set<String> set1 = new LinkedHashSet<>(s);
+        Set<String> set = new LinkedHashSet<String>(s);
+        Set<String> set1 = new LinkedHashSet<String>(s);
 
         System.out.println(set);
 
