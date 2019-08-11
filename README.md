@@ -77,7 +77,30 @@ __总结:不管new不new子类父类和子类的静态代码块和静态变量�
 * TreeSet将元素存储在红-黑树数据结构中
 * HashSet使用李离散函数
 * LinkedHashList使用了散列 看起来它使用了链表维护元素的插入顺序
-* 
+* linkHashMap的两种遍历方式
+  ```
+  使用Iterator遍历
+   LinkedHashMap<String,String> linkedHashMap = new LinkedHashMap();
+          linkedHashMap.put("a", "a");
+          linkedHashMap.put("b", "b");
+          linkedHashMap.put("c", "c");
+          Iterator it = linkedHashMap.entrySet().iterator();
+          while (it.hasNext()) {
+              Map.Entry entry = (Map.Entry) it.next();
+              System.out.println("key:" + entry.getKey() + "   value:" + entry.getValue());
+          }
+  ```
+  ```
+    foreach循环遍历
+     LinkedHashMap<String,String> linkedHashMap = new LinkedHashMap();
+             linkedHashMap.put("a", "a");
+             linkedHashMap.put("b", "b");
+             linkedHashMap.put("c", "c");
+             for(Map.Entry<String, String> entry : linkedHashMap.entrySet()) {
+                 System.out.println("key:" + entry.getKey() + "   value:" + entry.getValue());
+             }
+    ```
+*     
 
   
   

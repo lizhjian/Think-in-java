@@ -14,8 +14,6 @@ public class Demo1120 {
             map.put(c,map.get(c)==null?1:map.get(c)+1);
         }
         return map;
-
-
     }
 
 
