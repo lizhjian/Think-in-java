@@ -100,8 +100,8 @@ __总结:不管new不new子类父类和子类的静态代码块和静态变量�
                  System.out.println("key:" + entry.getKey() + "   value:" + entry.getValue());
              }
     ```
-*     
-
-  
+* PriorityQueue
+    * 优先级队列 声明下一个弹出元素是最需要的元素采用offer方法插入对象时，这个对象会在队列中被排序见Demo28
+     
   
   
