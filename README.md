@@ -103,5 +103,5 @@ __总结:不管new不new子类父类和子类的静态代码块和静态变量�
 * PriorityQueue
     * 优先级队列 声明下一个弹出元素是最需要的元素采用offer方法插入对象时，这个对象会在队列中被排序见Demo28
      
-  
-  
+* 可以可以用ForEach进行遍历的结构说明实现了Iterable接口  
+   * 参考NonCollectionSequence.clas 只要有方法能返回Iterable接口的实现  那么这个方法就可以用forEach遍历

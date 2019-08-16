@@ -2,7 +2,8 @@ import java.util.Iterator;
 
 /**
  * <pre>
- * desc ：TODO
+ * desc ：实现IterableClass接口
+ * 理解为实现了Iterable接口的类就是个list
  * author ：lizj
  * date ：2019-07-21 06:30
  * </pre>
@@ -14,7 +15,6 @@ public class IterableClass implements Iterable<String>{
 
     @Override
     public Iterator iterator() {
-
         return new Iterator<String>() {
             private int index = 0;
             @Override
