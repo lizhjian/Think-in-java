@@ -19,7 +19,7 @@ public class Demo1204 {
         }
     }
 
-    public static  void  f() throws MyException1204{
+    public static void f() throws MyException1204{
         throw new MyException1204("f-sfxxxx-->");
 
     }
